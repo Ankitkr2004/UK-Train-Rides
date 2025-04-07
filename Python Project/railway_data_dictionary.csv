@@ -1,0 +1,19 @@
+Field,Description
+Transaction ID,Unique identifier for an individual train ticket purchase
+Date of Purchase,Date the ticket was purchased
+Time of Purchase,Time the ticket was purchased
+Purchase Type,Whether the ticket was purchased online or directly at a train station
+Payment Method,"Payment method used to purchase the ticket (Contactles, Credit Card, or Debit Card)"
+Railcard,"Whether the passenger is a National Railcard holder (Adult, Senior, or Disabled) or not (None). Railcard holders get 1/3 off their ticket purchases."
+Ticket Class,Seat class for the ticket (Standard or First)
+Ticket Type,When you bought or can use the ticket. Advance tickets are 1/2 off and must be purchased at least a day prior to departure. Off-Peak tickets are 1/4 off and must be used outside of peak hours (weekdays between 6-8am and 4-6pm). Anytime tickets are full price and can be bought and used at any time during the day.
+Price,Final cost of the ticket
+Departure Station,Station to board the train
+Arrival Destination,Station to exit the train
+Date of Journey,Date the train departed
+Departure Time,Time the train departed
+Arrival Time,Time the train was scheduled to arrive at its destination (can be on the day after departure)
+Actual Arrival Time,Time the train arrived at its destination (can be on the day after departure)
+Journey Status,"Whether the train was on time, delayed, or cancelled"
+Reason for Delay,Reason for the delay or cancellation
+Refund Request,Whether the passenger requested a refund after a delay or cancellation
